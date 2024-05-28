@@ -27,8 +27,8 @@ unsigned long releasedTime = 0;
 void setup() {
   Serial.begin(115200);
   Serial.println(__FILE__);
-  Serial.print("LIBRARY VERSION: ");
-  Serial.println(HX711_LIB_VERSION);
+  // Serial.print("LIBRARY VERSION: ");
+  // Serial.println(HX711_LIB_VERSION);
   Serial.println();
 
   scale.begin(dataPin, clockPin);
